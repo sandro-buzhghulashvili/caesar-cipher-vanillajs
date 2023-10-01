@@ -1,0 +1,41 @@
+body {
+    background: #f2f4f6;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    padding: 100px 0;
+}
+.title {
+    margin: 0 auto 100px auto;
+}
+textarea {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.head h3 {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.col-md-5 {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ciphertext {
+    margin-bottom: 45px !important;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.result {
+    font-size: 24px;
+}
+.result-box {
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+@media(max-width:770px) {
+    .col-md-5:nth-of-type(1) {
+        margin-bottom: 50px;
+    }
+}
